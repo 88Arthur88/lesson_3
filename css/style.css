@@ -1,0 +1,31 @@
+.list {
+  color: rgb(182, 158, 0);
+}
+.peredumovy {
+  color: brown;
+}
+
+.peredumovy p {
+  color: blueviolet;
+}
+
+.pidgotovka ~ p {
+  color: blue;
+}
+
+.pidgotovka .infowar {
+  color: blanchedalmond;
+}
+
+.pidgotovka,
+.infowar {
+  background-color: rgba(0, 0, 255, 0.204);
+}
+
+.crimea + p {
+  color: blanchedalmond;
+}
+
+.text > p {
+  color: aqua;
+}
